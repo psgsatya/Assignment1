@@ -1,0 +1,54 @@
+<html>
+<script src="validation.js" type="text/javascript">
+</script>
+<title>Login Form</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="validation.js" type="text/javascript"></script>
+
+<body bgcolor="#66CCFF">
+
+		<form name="form1" method="post" >
+			<table >
+   			<tr height="1%">
+			<td> <img src="1.png" width="100%" height="50%"/></td>
+     			<td><center><font class = "header">Online Bill Pay System</font></center></br>
+					 <div>
+					 <table width="100%" height="10%">
+						<tr>
+							<td class="scroll">
+								<h3 >
+									<marquee direction="left">
+										<img src="2.jpg" class="image2"/> Welcome to Online Bill Pay System
+									</marquee>
+								</h3>
+							</td>
+						</tr>
+					</table>
+					</br></br>
+					</div>
+					<div align="right"><a href="homepage.html"><b><i>HOME</i></b></a>&nbsp&nbsp
+					<a href="aboutUs.html"><b><i>ABOUT US</i></b></a>&nbsp&nbsp
+					<a href="services.html"><b><i>SERVICES</i></b></a>&nbsp&nbsp
+					<a href="contactUs.html"><b><i>CONTACT US</i></b></a>&nbsp&nbsp
+				</td>
+   			</tr>
+			<tr>
+			</table>
+			</br></br></br>
+			<center><table class="main" >
+				<tr><td><p>*Please use you credentails.</p></td></tr>
+				<tr>
+					<td align=""><input id="email" name="email" class="user" placeholder="Enter your email" size="40" onblur="validateEmail(document.form1.email);"/></td>
+				</tr>
+				<tr>
+					<td align=""><input id="pwd" type="password" name="pwd" class="password" size="40" placeholder="Enter your password" onblur="validatePassword();"/></td>
+				</tr>
+				<tr><td><center><input type="submit" class ="login" value="Login" onclick="loginMessage();" /></td></center></tr>
+
+			</table></center>
+			</tr>
+			<center><a href="Register.html" ><h4 style=color:"blue">Register</h4></a></center>
+		
+		</form>
+</body>
+</html>
