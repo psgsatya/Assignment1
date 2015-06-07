@@ -1,0 +1,53 @@
+<html>
+
+<script src="validation.js" type="text/javascript"></script>
+<head>
+<title>Register</title>
+
+</head>
+<body bgcolor="#66CCFF">
+<form name="form2">
+<center><table class="main" >
+<tr>
+<td>First Name:</td>
+<td><input type="text" id="fName" onkeyup="check();" /></td>
+<td><div id="errfName"></div></td>
+</tr>
+<tr>
+<td>Last Name:</td>
+<td><input type="text" id="lName" onkeyup="check();"/></td>
+<td><div id="errlName"></div></td>
+</tr>
+<tr>
+<td>Email:</td>
+<td><input type="text" id="email" onkeyup="check();"/></td>
+<td><div id="erremail"></div></td>
+</tr>
+<tr>
+<td>User Id:</td>
+<td><input type="text" id="userid" onkeyup="check();"/></td>
+<td><div id="erruserid"></div></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" id="pwd" onkeyup="check();"/></td>
+<td><div id="errpwd"></div></td>
+</tr>
+<tr>
+<td>Confirm Password:</td>
+<td><input type="password" id="confpwd" onkeyup="check();"/></td>
+<td><div id="errconfpwd"></div></td>
+</tr>
+<tr>
+<td><input type="button" id="create" value="Register" onclick="createMessage();"/></td>
+</tr>
+<tr>
+<td>
+<a href="homepage.html"> Click here to goto Homepage</a>
+</td>
+</tr>
+</Center>
+</table>
+</form>
+</body>
+</html>
