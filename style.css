@@ -1,0 +1,13 @@
+
+.container {
+	align:center;
+	margin-top: 10px;
+	width: 90%;
+	padding: 10px;
+	border: 2px solid #a1a1a1;
+	background: #dddddd;
+}
+
+#header {
+background: linear-gradient(#cccccc,#F3F3F3);
+}
